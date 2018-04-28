@@ -1,0 +1,9 @@
+#! /bin/sh
+#
+# emitter.sh
+# Copyright (C) 2018 yqiu <yqiu@f24-suntzu>
+#
+# Distributed under terms of the MIT license.
+#
+DIR="$( cd "$( dirname "$0" )" && pwd )"
+java -jar $DIR/target/emitter-1.0-SNAPSHOT-jar-with-dependencies.jar "$@"
